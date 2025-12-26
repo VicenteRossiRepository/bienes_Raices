@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', function () {
 
     eventListener();
@@ -10,10 +11,23 @@ function eventListener() {
 
     mobileMenu.addEventListener('click', navegacionResponsive);
 };
+=======
+document.addEventListener("DOMContentLoaded", function () {
+
+    eventListeners();
+});
+
+function eventListeners() {
+    const mobileMenu = document.querySelector('.mobile-menu');
+
+    mobileMenu.addEventListener('click', navegacionResponsive);
+}
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d
 
 function navegacionResponsive() {
     const navegacion = document.querySelector('.navegacion');
 
+<<<<<<< HEAD
     if (navegacion.classList.contains('mostrar')) {
         navegacion.classList.remove('mostrar')
     } else {
@@ -45,4 +59,12 @@ function darkMode(){
     btnDarkMode.addEventListener('click', function(){
         document.body.classList.toggle('dark-mode');
     });
+=======
+    navegacion.classList.toggle('mostrar');
+    // if (navegacion.classList.contains('mostrar')) {
+    //     navegacion.classList.remove('mostrar');
+    // }else{
+    //     navegacion.classList.add('mostrar');
+    // }
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d
 }

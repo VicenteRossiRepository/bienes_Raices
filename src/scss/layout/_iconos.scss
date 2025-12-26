@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 @include tablet {
     .iconos-nosotros {
+=======
+
+@include tablet{
+    .iconos-nosotros{
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d
         @include grid(3, 2rem);
     }
 }

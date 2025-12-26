@@ -5,9 +5,14 @@
 }
 
 .anuncio{
+<<<<<<< HEAD
     background-color: lighten($color: $gris, $amount: 5);
     border: 1px solid darken($color: $gris, $amount: 10);
     margin-bottom: 2rem;
+=======
+    background-color: lighten($gris, 5);
+    border: 1px solid darken( $gris, 10);
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d
 
     .contenido-anuncio{
         padding: 2rem;
@@ -15,6 +20,7 @@
 
     h3,p{
         margin: 0;
+<<<<<<< HEAD
     }    
 }
 
@@ -23,15 +29,29 @@
         font-weight: $bold;
         font-size: 3rem;
     }
+=======
+    }
+    
+}
+
+.precio{
+    color: $verde;
+    font-weight: $bold;
+    font-size: 3rem;
+}
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d
 
 .iconos-caracteristicas{
     display: flex;
     list-style: none;
     padding: 0;
     max-width: 40rem;
+<<<<<<< HEAD
 
     
    
+=======
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d
     li{
         flex: 1;
         display: flex;

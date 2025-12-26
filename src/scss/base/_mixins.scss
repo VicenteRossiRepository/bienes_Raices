@@ -22,8 +22,13 @@
     grid-template-columns: repeat($columnas, 1fr);
 }
 
+<<<<<<< HEAD
 @mixin boton($bgcolor, $display) {
     background-color: $bgcolor;
+=======
+@mixin boton($bgColor, $display){
+    background-color: $bgColor;
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d
     color: $blanco;
     font-weight: $bold;
     text-decoration: none;
@@ -33,8 +38,13 @@
     display: $display;
     border: none;
 
+<<<<<<< HEAD
     &:hover{
         background-color: darken($color: $bgcolor, $amount: 5);
+=======
+    &:hover {
+        background-color: darken($bgColor, 5);
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d
         cursor: pointer;
     }
 }

@@ -1,8 +1,15 @@
 .no-webp .imagen-contacto{
+<<<<<<< HEAD
 background-image: url('../img/encuentra.jpg');
 }
 .webp .imagen-contacto{
 background-image: url('../img/encuentra.webp');
+=======
+    background-image:url(../img/encuentra.jpg);
+}
+.webp .imagen-contacto{
+    background-image: url(../img/encuentra.webp);
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d
 }
 
 .imagen-contacto{
@@ -12,11 +19,19 @@ background-image: url('../img/encuentra.webp');
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
+=======
+
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d
     h2{
         font-size: 4rem;
         font-weight: $black;
         color: $blanco;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d
     p{
         font-size: 1.8rem;
         color: $blanco;

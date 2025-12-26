@@ -3,7 +3,11 @@
 @import 'base/mixins';
 @import 'base/globales';
 @import 'base/utilidades';
+<<<<<<< HEAD
 @import 'base/darkMode';
+=======
+@import 'base/botones';
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d
 
 // UI
 @import 'layout/header';
@@ -11,12 +15,20 @@
 @import 'layout/navegacion';
 @import 'layout/iconos';
 @import 'layout/anuncios';
+<<<<<<< HEAD
 @import 'layout/botones';
+=======
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d
 @import 'layout/contactar';
 @import 'layout/inferior';
 @import 'layout/testimoniales';
 @import 'layout/formularios';
 
+<<<<<<< HEAD
 //internas
 @import 'internas/nosotros';
 @import 'internas/admin';
+=======
+// Paginas internas
+@import 'internas/nosotros';
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d

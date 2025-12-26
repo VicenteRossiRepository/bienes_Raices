@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .derecha{
     display: flex;
     flex-direction: column;
@@ -28,11 +29,21 @@
     flex-direction: column;
     align-items: center;
     padding-top: 3rem;
+=======
+.barra {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    align-items: center;
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d
 
     @include tablet {
         flex-direction: row;
         justify-content: space-between;
+<<<<<<< HEAD
         align-items: flex-end;
+=======
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d
     }
 }
 
@@ -40,9 +51,13 @@
 
     visibility: hidden;
     opacity: 0;
+<<<<<<< HEAD
     height: 0;
     transition: visibility .3s ease-in-out, opacity 0.5s linear, height .5s linear;
 
+=======
+    transition: visibility .3s ease-in-out, opacity .5s linear;
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d
 
     @include tablet {
         display: flex;
@@ -53,22 +68,37 @@
 
     a {
         color: $blanco;
+<<<<<<< HEAD
         text-transform: none;
         font-size: 2.2rem;
         display: block;
         text-align: center;
+=======
+        text-decoration: none;
+        font-size: 2.2rem;
+        display: block;
+        text-align: center;
+        &:hover{
+            color: $verde;
+        }
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d
 
         @include tablet {
             margin-right: 2rem;
             font-size: 1.8rem;
 
+<<<<<<< HEAD
             :last-of-type {
+=======
+            &:last-of-type {
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d
                 margin-right: 0;
             }
         }
     }
 }
 
+<<<<<<< HEAD
 /** menu de hamburguesa **/
 
 .mobile-menu {
@@ -77,12 +107,27 @@
     }
 
     img {
+=======
+// Menu de hamburguesa
+.mobile-menu{
+    @include tablet{
+        display: none;
+    }
+
+    img{
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d
         width: 5rem;
     }
 }
 
+<<<<<<< HEAD
 .mostrar {
     visibility: visible;
     opacity: 1;
     height: auto;
+=======
+.mostrar{
+    visibility: visible;
+    opacity: 1;
+>>>>>>> ceed0fc793daccb1dbd7bf704acadc620275bf2d
 }
