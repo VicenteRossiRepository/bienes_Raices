@@ -1,0 +1,9 @@
+# Ignorar la carpeta de compilación de Gulp
+build/
+
+# Ignorar las dependencias de NPM
+node_modules/
+
+# Opcional: Ignorar archivos de configuración de editores o logs
+.DS_Store
+npm-debug.log*
